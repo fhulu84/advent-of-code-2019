@@ -21,7 +21,7 @@ def fuel_itself_req(mass):
   fuel = fuel_req(mass)
   total = 0
   
-  while fuel > -1:
+  while fuel > 0:
     total += fuel
     fuel = fuel_req(fuel)
 
