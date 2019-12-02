@@ -5,7 +5,7 @@ def gravity_assist(prog, noun, verb):
   prog[2] = verb
 
   i = 0
-  while True:
+  while i < len(prog):
     op = prog[i]
     i1, i2, i3 = prog[i+1], prog[i+2], prog[i+3] 
     if op == 99:
